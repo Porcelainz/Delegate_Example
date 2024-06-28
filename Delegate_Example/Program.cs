@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Print(string x) => Console.WriteLine("→→ " + x + " ←←");
+    static void Print(string x) => Console.WriteLine("→→→→ " + x + " ←←←←");
     //static void PrintStartInfo(object sender, EventArgs e) => Console.WriteLine($"~ {((TaskManager)sender).name} ~"); 
     static void PrintStartInfo(string name) => Console.WriteLine($"~ {name} ~");
     static void PrintInfor(object sender, TaskEventArgs e)
