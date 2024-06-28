@@ -26,6 +26,7 @@ class Program
         taskManager.AddTask(new IoTask("IO任務1", "/path/to/file.txt", Print));
         // 添加網路任務
         taskManager.AddTask(new NetTask("網路任務1", "Wifi", Print));
+        taskManager.AddTask(new NetTask("網路任務2", "4G", Print));
         // 執行所有任務
         taskManager.ExecuteAllTasks();
     }
